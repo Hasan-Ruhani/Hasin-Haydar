@@ -14,12 +14,12 @@
     process(1,5,8,7,9,8,799,77,88,778);
     echo "\n";
 
-    //$data = 12;
-    function data($data){
+    $data = 12;
+    function data(){
         global $data;
         echo $data;
+        $data  += 4;
         echo " - ";
-        return $data;
     }
     data(12);
     echo $data;

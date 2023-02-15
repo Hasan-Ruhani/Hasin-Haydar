@@ -26,3 +26,12 @@
         displayStudent($student);
         // echo $student['name']."-".$student['age']."\n";
     }
+    
+    //name separation
+    $name = "Hasan Ruhani";
+    $result = explode(" ", $name);
+    echo $result[0];
+    echo "\n";
+    echo $result[1];
+    echo "\n";
+    echo str_repeat("*", 15);

@@ -5,7 +5,8 @@
     greet("Ahmad");
     greet("Mahir", "Mr.");
     greet("Full", "Ms.");
-    greet("Vhanuka", "Mrs.");
+    greet("Vhanuka", "Mrs."); //arguments
+    greet(name:"Karim", title:"Mr."); //name arguments
 
     //if you need unlimited parameters & arguments
     function process(...$n){
@@ -13,7 +14,8 @@
     }
     process(1,5,8,7,9,8,799,77,88,778);
     echo "\n";
-
+    
+    //use global variable
     $data = 12;
     function data(){
         global $data;
@@ -23,3 +25,17 @@
     }
     data(12);
     echo $data;
+
+    echo "\n";
+
+    //user count on your page
+    function visit(){
+       static $visitor = 0;
+       $visitor++;
+        echo  $visitor.",";
+    }
+    visit();
+    visit();
+    visit();
+    visit();
+    visit();

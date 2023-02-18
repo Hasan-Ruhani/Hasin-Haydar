@@ -26,5 +26,5 @@
         displayStudent($student);
         // echo $student['name']."-".$student['age']."\n";
     }
-    echo "hello";
+    echo "hi";
 

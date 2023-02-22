@@ -1,6 +1,6 @@
 <?php 
 $original = 'abc!@#$%^&defghijklmnopqrstuvwxyz1234567890';
-$pwd_length = 10;
+$pwd_length = 15;
 $output = '';
 for($i=0;$i<$pwd_length;$i++){
     $random = mt_rand(0,35);

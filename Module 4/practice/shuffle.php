@@ -1,6 +1,6 @@
 <?php
-    $origin = "abcdefghijklmnopqrstuvwxyz0123456789";
-    $key = "mge5prcfv0u3ohq8ilntx9wz4ak1y7ds6jb2";
+    $origin = "abcdefghijklmnopqruvwxyz0123456789";
+    $key = "9qbiwn30rpy285jf1emxu6v7olg4dkchza";
     $parts = str_split($origin);
     shuffle($parts);
     $key = join('', $parts);

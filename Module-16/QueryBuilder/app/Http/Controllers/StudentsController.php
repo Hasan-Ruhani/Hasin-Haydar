@@ -18,7 +18,7 @@ class StudentsController extends Controller
         // $students = DB::table('students') -> where('gender', '=', 'M') -> orWhere('name', '=', 'Jessy') -> get(); //set a condition
         // $students = DB::table('students') -> where('gender', '=', 'M')  //set condition with grouping
         //     ->orWhere(function(Builder $query){
-        //         return $query -> where('gender', '=', 'F')rtgr
+        //         return $query -> where('gender', '=', 'F')
         //         -> where('age', '<', '12');
         //     }) -> get();
         // $students = DB::table('students')  //joing value in selected database

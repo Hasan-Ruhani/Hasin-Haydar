@@ -5,6 +5,8 @@ $products = [
         "image"=>"https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg",
         "price"=>"48",
     ],
+
+    
     [
         "name"=> "Nomad Tumbler",
         "image"=>"https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg",
